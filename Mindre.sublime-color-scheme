@@ -1,0 +1,67 @@
+{
+    "name": "Mindre",
+    "author": "Ivan Prikaznov",
+    "variables": {
+        "bg-main":     "#F5F5F5",
+        "fg-main":     "#2e3338",
+        "active":      "#f2f3f5",
+        "selection":   "#CFD8DC",
+        "blue":        "#23457f",
+        "green":       "#3c763d",
+        "red":         "#9E0000",
+        "magenta":     "#5c3e99",
+        "grey":        "#CFD8DC",
+        "orange":      "#d47500",
+        "yellow-dark": "#54433a",
+        "gray-dark":   "#585c60",
+        "purple":      "#AB47BC"
+    },
+    "globals": {
+        "foreground":                  "var(fg-main)",
+        "background":                  "#F5F5F5",
+        "caret":                       "var(fg-main)",
+        "line_highlight":              "var(bg-main)",
+        "misspelling":                 "var(red)",
+        "selection":                   "var(selection)",
+        "selection_border_width":      "0",
+        "inactive_selection":          "#e3e5e8",
+        "selection_corner_radius":     "2",
+        "highlight":                   "var(orange)",
+        "find_highlight_foreground":   "#000000",
+        "find_highlight":              "var(orange)",
+        "brackets_options":            "foreground underline",
+        "brackets_foreground":         "var(purple)",
+        "bracket_contents_options":    "foreground underline",
+        "bracket_contents_foreground": "var(purple)",
+        "tags_options":                "foreground",
+        "tags_foreground":             "var(active)"
+    },
+    "rules": [
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(gray-dark)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(yellow-dark)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "storage.modifier, keyword, keyword.operator.word",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Type",
+            "scope": "entity.name",
+            "foreground": "#16524F"
+        },
+        {
+            "name": "Mistakes",
+            "scope": "invalid",
+            "foreground": "var(red)",
+            "background": "color(var(red) alpha(0.2))"
+        }
+    ]
+}
