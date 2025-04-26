@@ -8,7 +8,7 @@ Port of [mindre-theme](https://github.com/erikbackman/mindre-theme) for Sublime 
 ## Via Package Control
 First, add Mindre Repository via Package Control:
 
-`Tools` -> `Command Palette...` -> `Package Control: Add Repository`
+`Tools` → `Command Palette...` → `Package Control: Add Repository`
 put `https://github.com/Prikaz98/sublime-scheme-mindre` in appeared input field
 
 Second, install Mindre via Package Control:
