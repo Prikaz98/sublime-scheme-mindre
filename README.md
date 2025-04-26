@@ -14,9 +14,11 @@ put `https://github.com/Prikaz98/sublime-scheme-mindre` in appeared input field
 Second, install Mindre via Package Control:
 
 `Tools` → `Command Palette...` → `Package Control: Install Package`
+
 Select `sublime-scheme-mindre` and press Enter.
+
 Then, enable it:
 
-Third, Select `Preferences` → `Select Color Scheme ...`
+Select `Preferences` → `Select Color Scheme ...`
 
 Pick Mindre
