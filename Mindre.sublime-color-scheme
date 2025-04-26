@@ -49,7 +49,7 @@
         },
         {
             "name": "Keyword",
-            "scope": "storage.modifier, keyword, keyword.operator.word",
+            "scope": "storage.modifier, keyword, keyword.operator.word, variable.annotation, punctuation.definition.annotation, storage.type",
             "foreground": "var(magenta)"
         },
         {
